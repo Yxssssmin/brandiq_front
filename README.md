@@ -1,27 +1,27 @@
 # BrandiqFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## Cambiar a tu rama
 
-## Development server
+git checkout [nombre de la rama]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Crear y cambiar de rama
 
-## Code scaffolding
+git checkout -b [nombre de la rama]
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Realizar modificaciones en tu rama y hacer commit
 
-## Build
+git add .
+git commit -m "mensaje"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Cambiar a la rama 'master' para fusionar cambios de 'tu rama'
 
-## Running unit tests
+git checkout master
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Fusionar los cambios de tu rama en 'master'
 
-## Running end-to-end tests
+git merge [nombre de la rama]
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Subir los cambios a la rama master en el repositorio remoto
 
-## Further help
+git push origin master
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
