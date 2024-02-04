@@ -10,8 +10,7 @@ git checkout -b [nombre de la rama]
 
 ## Realizar modificaciones en tu rama y hacer commit
 
-git add .
-git commit -m "mensaje"
+git add . | git commit -m "mensaje"
 
 ## Cambiar a la rama 'master' para fusionar cambios de 'tu rama'
 
